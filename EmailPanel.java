@@ -49,11 +49,11 @@ public class EmailPanel extends JPanel
 	      public void actionPerformed(ActionEvent event)
 	      {
 	    	  
-	    	  System.out.println(fieldTo.append);
-	    	  System.out.println(fieldCc);
-	    	  System.out.println(fieldBcc);
-	    	  System.out.println(fieldSubject);
-	    	  System.out.println(fieldMessage);
+	    	  System.out.println(fieldTo.getText());
+	    	  System.out.println(fieldCc.getText());
+	    	  System.out.println(fieldBcc.getText());
+	    	  System.out.println(fieldSubject.getText());
+	    	  System.out.println(fieldMessage.getText());
 	      }
 	  }
 	
